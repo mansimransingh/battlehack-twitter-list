@@ -1,0 +1,25 @@
+{
+  "name": "battlehack-ldn14-twitter-list",
+  "version": "0.0.1",
+  "description": "automatically get a list of battlehack attendees + extract their twitter screen name and create a list! woo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mansimransingh/battlehack-twitter-list.git"
+  },
+  "author": "Mansimran Singh",
+  "license": "USE THIS SHIT AND DO WHAT YOU LIKE WITH IT",
+  "bugs": {
+    "url": "https://github.com/mansimransingh/battlehack-twitter-list/issues"
+  },
+  "homepage": "https://github.com/mansimransingh/battlehack-twitter-list",
+  "dependencies": {
+    "async": "^0.9.0",
+    "cheerio": "^0.17.0",
+    "ntwitter": "^0.5.0",
+    "request": "^2.40.0"
+  }
+}
